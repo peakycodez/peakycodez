@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tlBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A1010" />
+      <stop offset="50%" stop-color="#FF5A1F" />
+      <stop offset="100%" stop-color="#200A0A" />
+    </linearGradient>
+    <radialGradient id="tlGlow" cx="10%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#080808" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="850" height="110" rx="10" fill="#0C0C0C" />
+  <rect width="850" height="110" rx="10" fill="url(#tlGlow)" />
+  <rect x="1" y="1" width="848" height="108" rx="9" fill="none" stroke="#221010" stroke-width="1.2" />
+  <line x1="20" y1="2" x2="830" y2="2" stroke="url(#tlBorder)" stroke-width="1.8" />
+
+  <!-- Category Title Row -->
+  <g transform="translate(25, 25)">
+    <circle cx="5" cy="5" r="3" fill="#FF5A1F" />
+    <text x="15" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="800" letter-spacing="2" fill="#F5F5F5">
+      DEVELOPMENT TOOLING &amp; CLOUD DEPLOYMENT
+    </text>
+    <text x="800" y="9" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="1.5" fill="#71717A">
+      TIER 04 // INFRASTRUCTURE
+    </text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="25" y1="42" x2="825" y2="42" stroke="#1D0C0C" stroke-width="1" />
+
+  <!-- Tech Badges -->
+  <g transform="translate(25, 56)">
+    <!-- GitHub -->
+    <g transform="translate(0, 0)">
+      <rect width="105" height="34" rx="6" fill="#141414" stroke="#2B1212" stroke-width="1" />
+      <circle cx="18" cy="17" r="7" fill="#FFFFFF" />
+      <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F5F5F5">GitHub</text>
+    </g>
+
+    <!-- Vercel -->
+    <g transform="translate(115, 0)">
+      <rect width="100" height="34" rx="6" fill="#141414" stroke="#2B1212" stroke-width="1" />
+      <polygon points="18,10 24,22 12,22" fill="#FFFFFF" />
+      <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F5F5F5">Vercel</text>
+    </g>
+
+    <!-- Git Version Control -->
+    <g transform="translate(225, 0)">
+      <rect width="90" height="34" rx="6" fill="#141414" stroke="#2B1212" stroke-width="1" />
+      <circle cx="18" cy="17" r="7" fill="#F05032" />
+      <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F5F5F5">Git</text>
+    </g>
+
+    <!-- GitHub Actions CI/CD -->
+    <g transform="translate(325, 0)">
+      <rect width="165" height="34" rx="6" fill="#141414" stroke="#2B1212" stroke-width="1" />
+      <circle cx="18" cy="17" r="7" fill="#2088FF" />
+      <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F5F5F5">GitHub Actions CI</text>
+    </g>
+
+    <!-- VS Code -->
+    <g transform="translate(500, 0)">
+      <rect width="115" height="34" rx="6" fill="#141414" stroke="#2B1212" stroke-width="1" />
+      <polygon points="18,10 24,17 18,24 14,20" fill="#007ACC" />
+      <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F5F5F5">VS Code</text>
+    </g>
+
+    <!-- Performance Profiling -->
+    <g transform="translate(625, 0)">
+      <rect width="180" height="34" rx="6" fill="#141414" stroke="#2B1212" stroke-width="1" />
+      <circle cx="18" cy="17" r="7" fill="#FF5A1F" />
+      <text x="32" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#F5F5F5">Web Vitals Audit</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 170" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cGridBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2D0D0D" />
+      <stop offset="50%" stop-color="#FF5A1F" />
+      <stop offset="100%" stop-color="#2D0D0D" />
+    </linearGradient>
+
+    <filter id="cGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="850" height="170" rx="12" fill="#080808" />
+  <rect x="1" y="1" width="848" height="168" rx="11" fill="none" stroke="#221010" stroke-width="1.2" />
+  <line x1="30" y1="2" x2="820" y2="2" stroke="url(#cGridBorder)" stroke-width="1.8" />
+
+  <!-- Top Telemetry Row -->
+  <g transform="translate(24, 24)">
+    <circle cx="6" cy="6" r="3" fill="#FF5A1F">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="18" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#F5F5F5">
+      CONTRIBUTION MATRIX // INFERNAL HEATMAP
+    </text>
+    <text x="802" y="10" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="1.5" fill="#71717A">
+      STATUS: COMMITTED FREQUENCY
+    </text>
+  </g>
+
+  <!-- The Heatmap Matrix (Visual 52-week stylized sample with infernal coloration) -->
+  <g transform="translate(24, 46)">
+    <!-- Month labels -->
+    <text x="0" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">JAN</text>
+    <text x="70" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">FEB</text>
+    <text x="140" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">MAR</text>
+    <text x="210" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">APR</text>
+    <text x="280" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">MAY</text>
+    <text x="350" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">JUN</text>
+    <text x="420" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">JUL</text>
+    <text x="490" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">AUG</text>
+    <text x="560" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">SEP</text>
+    <text x="630" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">OCT</text>
+    <text x="700" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">NOV</text>
+    <text x="770" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#52525B">DEC</text>
+
+    <!-- Grid Rows (y: 18, 28, 38, 48, 58, 68, 78) -->
+    <!-- Let's render procedural cells with varied intensities -->
+    <!-- Level 0: #141414, Level 1: #380E0E, Level 2: #751414, Level 3: #C22A14, Level 4: #FF5A1F, Active: #FFB347 -->
+    <g transform="translate(0, 16)">
+      <!-- Repeating stylized columns -->
+      <!-- We can write a concise, clean grid of rects with animated pulse on highest tier -->
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="11" height="10" rx="2" fill="#161616" />
+      <rect x="15" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+      <rect x="30" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="45" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="60" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="75" y="0" width="11" height="10" rx="2" fill="#161616" />
+      <rect x="90" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="105" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="120" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="135" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="150" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+      <rect x="165" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="180" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="195" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="210" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="225" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="240" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="255" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="270" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="285" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+      <rect x="300" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="315" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="330" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="345" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="360" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="375" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="390" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="405" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="420" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="435" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+      <rect x="450" y="0" width="11" height="10" rx="2" fill="#161616" />
+      <rect x="465" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="480" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="495" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="510" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="525" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="540" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="555" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="570" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="585" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="600" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="615" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="630" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="645" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="660" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="675" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="690" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="705" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="720" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+      <rect x="735" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      <rect x="750" y="0" width="11" height="10" rx="2" fill="#C22518" />
+      <rect x="765" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+      <rect x="780" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 13)">
+        <rect x="0" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="15" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="30" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="45" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="60" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="75" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="90" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="105" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="120" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="135" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="150" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="165" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="180" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="195" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="210" y="0" width="11" height="10" rx="2" fill="#161616" />
+        <rect x="225" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="240" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="255" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="270" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="285" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="300" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="315" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="330" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="345" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="360" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="375" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="390" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="405" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="420" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="435" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="450" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="465" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="480" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="495" y="0" width="11" height="10" rx="2" fill="#161616" />
+        <rect x="510" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="525" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="540" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="555" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="570" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="585" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="600" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="615" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="630" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="645" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="660" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="675" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="690" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="705" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="720" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="735" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="750" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="765" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="780" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 26)">
+        <rect x="0" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="15" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="30" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="45" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="60" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="75" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="90" y="0" width="11" height="10" rx="2" fill="#161616" />
+        <rect x="105" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="120" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="135" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="150" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="165" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="180" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="195" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="210" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="225" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="240" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="255" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="270" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="285" y="0" width="11" height="10" rx="2" fill="#161616" />
+        <rect x="300" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="315" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="330" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="345" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="360" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="375" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="390" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="405" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="420" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="435" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="450" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="465" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="480" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="495" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="510" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="525" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="540" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="555" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="570" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="585" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="600" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="615" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="630" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="645" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="660" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="675" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="690" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="705" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="720" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="735" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="750" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="765" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="780" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      </g>
+
+      <!-- Row 4 -->
+      <g transform="translate(0, 39)">
+        <rect x="0" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="15" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="30" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="45" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="60" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="75" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="90" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="105" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="120" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="135" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="150" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="165" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="180" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="195" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="210" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="225" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="240" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="255" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="270" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="285" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="300" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="315" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="330" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="345" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="360" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="375" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="390" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="405" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="420" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="435" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="450" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="465" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="480" y="0" width="11" height="10" rx="2" fill="#161616" />
+        <rect x="495" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="510" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="525" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="540" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="555" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="570" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="585" y="0" width="11" height="10" rx="2" fill="#3D1212" />
+        <rect x="600" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="615" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="630" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="645" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="660" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="675" y="0" width="11" height="10" rx="2" fill="#7A1818" />
+        <rect x="690" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="705" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="720" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="735" y="0" width="11" height="10" rx="2" fill="#C22518" />
+        <rect x="750" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+        <rect x="765" y="0" width="11" height="10" rx="2" fill="#FFB347" />
+        <rect x="780" y="0" width="11" height="10" rx="2" fill="#FF5A1F" />
+      </g>
+    </g>
+
+    <!-- Legend bar at bottom -->
+    <g transform="translate(640, 78)">
+      <text x="-40" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#71717A">LESS</text>
+      <rect x="0" y="0" width="10" height="9" rx="1.5" fill="#161616" />
+      <rect x="13" y="0" width="10" height="9" rx="1.5" fill="#3D1212" />
+      <rect x="26" y="0" width="10" height="9" rx="1.5" fill="#7A1818" />
+      <rect x="39" y="0" width="10" height="9" rx="1.5" fill="#C22518" />
+      <rect x="52" y="0" width="10" height="9" rx="1.5" fill="#FF5A1F" />
+      <rect x="65" y="0" width="10" height="9" rx="1.5" fill="#FFB347" />
+      <text x="80" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" fill="#71717A">MORE</text>
+    </g>
+  </g>
+</svg>

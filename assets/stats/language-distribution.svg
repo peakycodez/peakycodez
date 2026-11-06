@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="100%" height="100%">
+  <defs>
+    <radialGradient id="langGlow" cx="80%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.12" />
+      <stop offset="60%" stop-color="#E52525" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#080808" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="langTopBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A1010" />
+      <stop offset="50%" stop-color="#FF7518" />
+      <stop offset="100%" stop-color="#3A1010" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame Surface -->
+  <rect width="495" height="195" rx="10" fill="#080808" />
+  <rect width="495" height="195" rx="10" fill="url(#langGlow)" />
+  <rect x="1" y="1" width="493" height="193" rx="9" fill="none" stroke="#221010" stroke-width="1.2" />
+  <line x1="20" y1="2" x2="475" y2="2" stroke="url(#langTopBorder)" stroke-width="1.8" />
+
+  <!-- Corner Brackets -->
+  <path d="M 10 24 L 10 10 L 24 10" fill="none" stroke="#FF5A1F" stroke-width="1.5" />
+  <path d="M 485 24 L 485 10 L 471 10" fill="none" stroke="#FF5A1F" stroke-width="1.5" />
+  <path d="M 10 171 L 10 185 L 24 185" fill="none" stroke="#FF5A1F" stroke-width="1.5" />
+  <path d="M 485 171 L 485 185 L 471 185" fill="none" stroke="#FF5A1F" stroke-width="1.5" />
+
+  <!-- Header -->
+  <g transform="translate(25, 30)">
+    <circle cx="6" cy="6" r="3.5" fill="#E52525" />
+    <text x="18" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="12" font-weight="700" letter-spacing="2" fill="#FF7518">
+      CORE CODE RATIOS
+    </text>
+    <text x="445" y="10" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="1" fill="#71717A">
+      SYNTAX METRICS
+    </text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="25" y1="52" x2="470" y2="52" stroke="#200B0B" stroke-width="1" />
+
+  <!-- Progress Distribution Bar -->
+  <g transform="translate(25, 66)">
+    <rect x="0" y="0" width="180" height="8" rx="4" fill="#3178C6" />
+    <rect x="184" y="0" width="110" height="8" rx="4" fill="#F7DF1E" />
+    <rect x="298" y="0" width="70" height="8" rx="4" fill="#38BDF8" />
+    <rect x="372" y="0" width="45" height="8" rx="4" fill="#FF5A1F" />
+    <rect x="421" y="0" width="24" height="8" rx="4" fill="#E52525" />
+  </g>
+
+  <!-- Legend Items -->
+  <g transform="translate(30, 96)">
+    <!-- Column 1 -->
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="6" r="4" fill="#3178C6" />
+      <text x="16" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">TypeScript</text>
+      <text x="120" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#A1A1AA">41%</text>
+
+      <circle cx="6" cy="32" r="4" fill="#F7DF1E" />
+      <text x="16" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">JavaScript</text>
+      <text x="120" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#A1A1AA">25%</text>
+
+      <circle cx="6" cy="58" r="4" fill="#38BDF8" />
+      <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Tailwind &amp; CSS</text>
+      <text x="120" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#A1A1AA">16%</text>
+    </g>
+
+    <!-- Column 2 -->
+    <g transform="translate(220, 0)">
+      <circle cx="6" cy="6" r="4" fill="#FF5A1F" />
+      <text x="16" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Three.js / WebGL</text>
+      <text x="140" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#A1A1AA">10%</text>
+
+      <circle cx="6" cy="32" r="4" fill="#E52525" />
+      <text x="16" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">AI &amp; Neural Scripts</text>
+      <text x="140" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#A1A1AA">5%</text>
+
+      <circle cx="6" cy="58" r="4" fill="#71717A" />
+      <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#F5F5F5">Other / Config</text>
+      <text x="140" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" fill="#A1A1AA">3%</text>
+    </g>
+  </g>
+</svg>

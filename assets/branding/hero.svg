@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <radialGradient id="heroCoreGlow" cx="28%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.22" />
+      <stop offset="40%" stop-color="#E52525" stop-opacity="0.10" />
+      <stop offset="80%" stop-color="#080808" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="heroEdgeGlow" cx="85%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FF7518" stop-opacity="0.12" />
+      <stop offset="70%" stop-color="#080808" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Gradients for Typography & Borders -->
+    <linearGradient id="brandTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#F5F5F5" />
+      <stop offset="70%" stop-color="#FFB347" />
+      <stop offset="100%" stop-color="#FF5A1F" />
+    </linearGradient>
+
+    <linearGradient id="taglineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A1F" />
+      <stop offset="50%" stop-color="#FF7518" />
+      <stop offset="100%" stop-color="#FFB347" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A1010" />
+      <stop offset="30%" stop-color="#FF5A1F" />
+      <stop offset="70%" stop-color="#E52525" />
+      <stop offset="100%" stop-color="#200A0A" />
+    </linearGradient>
+
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E52525" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FF7518" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FFB347" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Fox Emblem Gradients -->
+    <linearGradient id="hEarLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7518" />
+      <stop offset="70%" stop-color="#B81414" />
+      <stop offset="100%" stop-color="#240606" />
+    </linearGradient>
+    <linearGradient id="hEarRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF7518" />
+      <stop offset="70%" stop-color="#B81414" />
+      <stop offset="100%" stop-color="#240606" />
+    </linearGradient>
+    <linearGradient id="hInnerEar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB347" />
+      <stop offset="100%" stop-color="#E52525" />
+    </linearGradient>
+    <linearGradient id="hForehead" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FF7518" />
+      <stop offset="70%" stop-color="#C01818" />
+      <stop offset="100%" stop-color="#3A0808" />
+    </linearGradient>
+    <linearGradient id="hCheekL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5A1F" />
+      <stop offset="70%" stop-color="#8B1414" />
+      <stop offset="100%" stop-color="#140404" />
+    </linearGradient>
+    <linearGradient id="hCheekR" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF5A1F" />
+      <stop offset="70%" stop-color="#8B1414" />
+      <stop offset="100%" stop-color="#140404" />
+    </linearGradient>
+    <linearGradient id="hMuzzleL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7518" />
+      <stop offset="100%" stop-color="#E52525" />
+    </linearGradient>
+    <linearGradient id="hMuzzleR" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF7518" />
+      <stop offset="100%" stop-color="#E52525" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="hGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="eyePulsar" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Pattern Background -->
+    <pattern id="techGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161616" stroke-width="0.8" opacity="0.6" />
+      <circle cx="0" cy="0" r="1" fill="#FF5A1F" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <!-- Base Plate -->
+  <rect width="1200" height="420" rx="16" fill="#080808" />
+  <rect width="1200" height="420" rx="16" fill="url(#techGrid)" />
+  <rect width="1200" height="420" rx="16" fill="url(#heroCoreGlow)" />
+  <rect width="1200" height="420" rx="16" fill="url(#heroEdgeGlow)" />
+
+  <!-- Outer Precision Border -->
+  <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="#221010" stroke-width="1.2" />
+
+  <!-- Corner Brackets -->
+  <path d="M 16 45 L 16 16 L 45 16" fill="none" stroke="#FF5A1F" stroke-width="2.5" />
+  <path d="M 1184 45 L 1184 16 L 1155 16" fill="none" stroke="#FF5A1F" stroke-width="2.5" />
+  <path d="M 16 375 L 16 404 L 45 404" fill="none" stroke="#FF5A1F" stroke-width="2.5" />
+  <path d="M 1184 375 L 1184 404 L 1155 404" fill="none" stroke="#FF5A1F" stroke-width="2.5" />
+
+  <!-- Molten Top Horizon Beam -->
+  <line x1="100" y1="2" x2="1100" y2="2" stroke="url(#borderGrad)" stroke-width="2">
+    <animate attributeName="stroke-dasharray" values="100,600;600,100;100,600" dur="8s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Ambient Animated Embers -->
+  <g opacity="0.8">
+    <circle cx="180" cy="110" r="1.5" fill="#FF5A1F">
+      <animate attributeName="cy" values="110;85;110" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="290" cy="70" r="1.2" fill="#FFB347">
+      <animate attributeName="cy" values="70;45;70" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="120" cy="290" r="2" fill="#E52525">
+      <animate attributeName="cy" values="290;260;290" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="560" cy="90" r="1.5" fill="#FF7518">
+      <animate attributeName="cy" values="90;60;90" dur="4.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1080" cy="140" r="1.8" fill="#FF5A1F">
+      <animate attributeName="cy" values="140;110;140" dur="4.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.85;0.3" dur="4.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="890" cy="310" r="1.2" fill="#FFB347">
+      <animate attributeName="cy" values="310;285;310" dur="3.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- LEFT FLANK: THE GEOMETRIC FOX EMBLEM (Scale ~0.78, centered at x=200, y=210) -->
+  <g transform="translate(60, 30)">
+    <!-- Hexagonal Aura Rings -->
+    <polygon points="170,30 280,95 280,225 170,290 60,225 60,95"
+             fill="none" stroke="#2D0D0D" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="0 170 160" to="360 170 160" dur="60s" repeatCount="indefinite" />
+    </polygon>
+
+    <!-- Outer Ears -->
+    <polygon points="170,95 125,102 100,40" fill="url(#hEarLeft)" stroke="#E52525" stroke-width="0.6" />
+    <polygon points="170,95 215,102 240,40" fill="url(#hEarRight)" stroke="#E52525" stroke-width="0.6" />
+
+    <!-- Inner Ear Cavities -->
+    <polygon points="135,98 108,52 125,102" fill="url(#hInnerEar)" opacity="0.9" />
+    <polygon points="205,98 232,52 215,102" fill="url(#hInnerEar)" opacity="0.9" />
+
+    <!-- Forehead Rhombus & Crown -->
+    <polygon points="170,75 148,108 170,140 192,108" fill="url(#hForehead)" stroke="#FF5A1F" stroke-width="0.6" />
+    <polygon points="170,75 125,102 148,108" fill="url(#hEarLeft)" stroke="#FF5A1F" stroke-width="0.4" />
+    <polygon points="170,75 215,102 192,108" fill="url(#hEarRight)" stroke="#FF5A1F" stroke-width="0.4" />
+
+    <!-- Temples -->
+    <polygon points="125,102 92,150 144,144 148,108" fill="url(#hCheekL)" stroke="#E52525" stroke-width="0.4" />
+    <polygon points="215,102 248,150 196,144 192,108" fill="url(#hCheekR)" stroke="#E52525" stroke-width="0.4" />
+
+    <!-- Cheek Flares -->
+    <polygon points="92,150 65,178 128,185 144,144" fill="#1C0505" stroke="#FF5A1F" stroke-width="0.6" />
+    <polygon points="248,150 275,178 212,185 196,144" fill="#1C0505" stroke="#FF5A1F" stroke-width="0.6" />
+
+    <!-- Mid-Face Bridge -->
+    <polygon points="170,140 144,144 150,190 170,208" fill="#5A0E0E" stroke="#FF7518" stroke-width="0.4" />
+    <polygon points="170,140 196,144 190,190 170,208" fill="#3E0909" stroke="#FF7518" stroke-width="0.4" />
+
+    <!-- Cheek Inners -->
+    <polygon points="144,144 128,185 150,190" fill="#751414" stroke="#FF5A1F" stroke-width="0.4" />
+    <polygon points="196,144 212,185 190,190" fill="#4D0E0E" stroke="#FF5A1F" stroke-width="0.4" />
+
+    <!-- Muzzle / Jaw -->
+    <polygon points="150,190 128,185 148,230 170,255 170,208" fill="url(#hMuzzleL)" stroke="#FF7518" stroke-width="0.6" />
+    <polygon points="190,190 212,185 192,230 170,255 170,208" fill="url(#hMuzzleR)" stroke="#FF7518" stroke-width="0.6" />
+
+    <!-- Chin Tip Core -->
+    <polygon points="170,208 160,242 170,262 180,242" fill="#FF5A1F" />
+
+    <!-- Molten Glowing Eyes -->
+    <polygon points="135,141 158,149 141,153 122,148" fill="#FFB347" filter="url(#eyePulsar)">
+      <animate attributeName="fill" values="#FFB347;#FF5A1F;#FFB347" dur="2.4s" repeatCount="indefinite" />
+    </polygon>
+    <polygon points="205,141 182,149 199,153 218,148" fill="#FFB347" filter="url(#eyePulsar)">
+      <animate attributeName="fill" values="#FFB347;#FF5A1F;#FFB347" dur="2.4s" repeatCount="indefinite" />
+    </polygon>
+
+    <!-- Eye Highlights -->
+    <polygon points="141,146 151,150 144,151" fill="#FFFFFF" opacity="0.9" />
+    <polygon points="199,146 189,150 196,151" fill="#FFFFFF" opacity="0.9" />
+
+    <!-- Nose Apex -->
+    <polygon points="170,242 165,250 175,250" fill="#120404" stroke="#FF5A1F" stroke-width="0.4" />
+
+    <!-- Fox Emblem Sub-Badge -->
+    <rect x="105" y="285" width="130" height="22" rx="4" fill="#120808" stroke="#3D1212" stroke-width="0.8" />
+    <circle cx="118" cy="296" r="3" fill="#FF5A1F">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="128" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', monospace" font-size="9" font-weight="700" letter-spacing="2" fill="#E52525">
+      INFERNAL CORE
+    </text>
+  </g>
+
+  <!-- VERTICAL DIVIDING ACCENT -->
+  <line x1="420" y1="60" x2="420" y2="360" stroke="#221010" stroke-width="1.2" />
+  <line x1="420" y1="140" x2="420" y2="280" stroke="#FF5A1F" stroke-width="1.5" opacity="0.8">
+    <animate attributeName="y1" values="140;90;140" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="y2" values="280;330;280" dur="5s" repeatCount="indefinite" />
+  </line>
+
+  <!-- RIGHT FLANK: TYPOGRAPHIC IDENTITY ARCHITECTURE -->
+  <g transform="translate(460, 0)">
+    <!-- Status / Specification Pill -->
+    <g transform="translate(0, 68)">
+      <rect x="0" y="0" width="220" height="24" rx="12" fill="#140808" stroke="#381515" stroke-width="1" />
+      <circle cx="12" cy="12" r="3.5" fill="#FF5A1F">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" font-weight="700" letter-spacing="2" fill="#FF7518">
+        FLAGSHIP REPOSITORY
+      </text>
+      <line x1="160" y1="6" x2="160" y2="18" stroke="#281010" stroke-width="1" />
+      <text x="170" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" font-weight="600" letter-spacing="1.5" fill="#A1A1AA">
+        v2.4
+      </text>
+    </g>
+
+    <!-- Main Brand Wordmark -->
+    <text x="0" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="54" letter-spacing="6" fill="url(#brandTitleGrad)" filter="url(#hGlow)">
+      PEAKYCODEZ
+    </text>
+
+    <!-- Signature Tagline -->
+    <g transform="translate(0, 192)">
+      <line x1="0" y1="-8" x2="28" y2="-8" stroke="#FF5A1F" stroke-width="3" />
+      <text x="38" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="20" letter-spacing="6" fill="url(#taglineGrad)">
+        ENGINEERED DIFFERENT.
+      </text>
+    </g>
+
+    <!-- Thin Divider -->
+    <line x1="0" y1="216" x2="680" y2="216" stroke="#221010" stroke-width="1" />
+    <line x1="0" y1="216" x2="160" y2="216" stroke="#E52525" stroke-width="1.5" opacity="0.8" />
+
+    <!-- Developer Identity Block -->
+    <!-- Name -->
+    <text x="0" y="254" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Arial, sans-serif" font-weight="700" font-size="22" letter-spacing="2" fill="#F5F5F5">
+      SAIRAJ VISHNU PINGALE
+    </text>
+
+    <!-- Positioning / Roles -->
+    <g transform="translate(0, 284)">
+      <!-- Role 1 -->
+      <rect x="0" y="0" width="210" height="26" rx="4" fill="#121212" stroke="#251212" stroke-width="1" />
+      <text x="105" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="11" letter-spacing="0.5" fill="#E52525">
+        B.Tech AI &amp; Data Science
+      </text>
+
+      <!-- Role 2 -->
+      <rect x="220" y="0" width="180" height="26" rx="4" fill="#121212" stroke="#251212" stroke-width="1" />
+      <text x="310" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="11" letter-spacing="0.5" fill="#FF5A1F">
+        Full-Stack AI Developer
+      </text>
+
+      <!-- Role 3 -->
+      <rect x="410" y="0" width="200" height="26" rx="4" fill="#121212" stroke="#251212" stroke-width="1" />
+      <text x="510" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="11" letter-spacing="0.5" fill="#FFB347">
+        Independent Product Builder
+      </text>
+    </g>
+
+    <!-- Refined Telemetry Row -->
+    <g transform="translate(0, 342)" opacity="0.85">
+      <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="500" letter-spacing="1.5" fill="#71717A">
+        FOCUS //
+      </text>
+      <text x="58" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" letter-spacing="1" fill="#A1A1AA">
+        Autonomous AI Systems · 3D Web Real-Time Experiences · High-Velocity Full-Stack
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Edge -->
+  <rect x="16" y="415" width="1168" height="2" fill="url(#beamGrad)" />
+</svg>

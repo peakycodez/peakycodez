@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cwBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120808" />
+      <stop offset="50%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+
+    <linearGradient id="cwEdgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#300808" />
+      <stop offset="35%" stop-color="#E52525" />
+      <stop offset="70%" stop-color="#FF5A1F" />
+      <stop offset="100%" stop-color="#300808" />
+    </linearGradient>
+
+    <radialGradient id="cwCoreGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#E52525" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="cwGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#171717" stroke-width="0.7" opacity="0.6" />
+      <circle cx="0" cy="0" r="0.8" fill="#FF5A1F" opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <!-- Frame Surface -->
+  <rect width="800" height="450" rx="12" fill="url(#cwBgGrad)" />
+  <rect width="800" height="450" rx="12" fill="url(#cwGrid)" />
+  <rect width="800" height="450" rx="12" fill="url(#cwCoreGlow)" />
+
+  <!-- Outer Bevel & Fiery Top Edge -->
+  <rect x="1" y="1" width="798" height="448" rx="11" fill="none" stroke="#221010" stroke-width="1.2" />
+  <line x1="40" y1="2" x2="760" y2="2" stroke="url(#cwEdgeGrad)" stroke-width="2" />
+
+  <!-- Corner Brackets -->
+  <path d="M 14 36 L 14 14 L 36 14" fill="none" stroke="#FF5A1F" stroke-width="2" />
+  <path d="M 786 36 L 786 14 L 764 14" fill="none" stroke="#FF5A1F" stroke-width="2" />
+  <path d="M 14 414 L 14 436 L 36 436" fill="none" stroke="#FF5A1F" stroke-width="2" />
+  <path d="M 786 414 L 786 436 L 764 436" fill="none" stroke="#FF5A1F" stroke-width="2" />
+
+  <!-- HUD Telemetry Top Bar -->
+  <g transform="translate(30, 32)">
+    <rect x="0" y="0" width="76" height="20" rx="4" fill="#180A0A" stroke="#3D1212" stroke-width="0.8" />
+    <circle cx="10" cy="10" r="2.5" fill="#FF5A1F" />
+    <text x="18" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="700" letter-spacing="1.5" fill="#F5F5F5">
+      CW // 04
+    </text>
+
+    <text x="90" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="2" fill="#71717A">
+      INDEX: SYSTEM ARTIFACT · SPATIAL NAVIGATION 3D
+    </text>
+  </g>
+
+  <!-- Central Spatial Isometric Navigation Core -->
+  <g transform="translate(400, 225)">
+    <!-- Isometric Cube / Campus Topography Bounds -->
+    <!-- Top Face -->
+    <polygon points="0,-70 60,-35 0,0 -60,-35" fill="#1A0A0A" stroke="#FF5A1F" stroke-width="1" />
+    <!-- Left Face -->
+    <polygon points="-60,-35 0,0 0,70 -60,35" fill="#0E0505" stroke="#E52525" stroke-width="1" />
+    <!-- Right Face -->
+    <polygon points="0,0 60,-35 60,35 0,70" fill="#140606" stroke="#E52525" stroke-width="1" />
+
+    <!-- Spatial Waypoint Beacon Pin -->
+    <circle cx="0" cy="-35" r="5" fill="#FFB347" />
+    <line x1="0" y1="-35" x2="0" y2="-60" stroke="#FF5A1F" stroke-width="1.5" />
+    <circle cx="0" cy="-60" r="3" fill="#E52525" />
+
+    <!-- Center Monogram -->
+    <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif" font-weight="900" font-size="20" letter-spacing="4" fill="#F5F5F5">
+      CW
+    </text>
+    <text x="0" y="94" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" font-weight="700" letter-spacing="3" fill="#FF5A1F">
+      AMGOI 3D TOPOGRAPHY
+    </text>
+
+    <!-- Radar Sweep Rings -->
+    <circle cx="0" cy="0" r="105" fill="none" stroke="#251010" stroke-width="0.8" stroke-dasharray="2,6" />
+  </g>
+
+  <!-- HUD Telemetry Bottom Bar -->
+  <g transform="translate(30, 415)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="2" fill="#52525B">
+      3D INTERACTIVE CAMPUS NAVIGATION // AMGOI
+    </text>
+    <text x="740" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="1.5" fill="#FF7518">
+      STATUS: DEPLOYED
+    </text>
+  </g>
+</svg>

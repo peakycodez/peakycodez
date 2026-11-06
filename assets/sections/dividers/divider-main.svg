@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="divGradLeft" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A1F" />
+      <stop offset="40%" stop-color="#E52525" stop-opacity="0.8" />
+      <stop offset="80%" stop-color="#801010" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#080808" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="divGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A1F" />
+      <stop offset="40%" stop-color="#E52525" stop-opacity="0.8" />
+      <stop offset="80%" stop-color="#801010" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#080808" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="divGlow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Left Tapering Line -->
+  <line x1="50" y1="12" x2="475" y2="12" stroke="url(#divGradLeft)" stroke-width="1.5" />
+  <line x1="150" y1="12" x2="475" y2="12" stroke="#FF7518" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Right Tapering Line -->
+  <line x1="525" y1="12" x2="950" y2="12" stroke="url(#divGradRight)" stroke-width="1.5" />
+  <line x1="525" y1="12" x2="850" y2="12" stroke="#FF7518" stroke-width="0.8" opacity="0.6" />
+
+  <!-- Central Molten Core Node -->
+  <g transform="translate(500, 12)" filter="url(#divGlow)">
+    <!-- Outer Diamond -->
+    <polygon points="0,-8 14,0 0,8 -14,0" fill="#140606" stroke="#FF5A1F" stroke-width="1.2" />
+    <!-- Inner Diamond -->
+    <polygon points="0,-4 7,0 0,4 -7,0" fill="#FFB347">
+      <animate attributeName="fill" values="#FFB347;#FF5A1F;#FFB347" dur="2s" repeatCount="indefinite" />
+    </polygon>
+    <!-- Flanking Accent Ticks -->
+    <circle cx="-24" cy="0" r="1.5" fill="#E52525" />
+    <circle cx="24" cy="0" r="1.5" fill="#E52525" />
+  </g>
+</svg>

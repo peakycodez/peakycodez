@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="paBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120808" />
+      <stop offset="50%" stop-color="#0A0A0A" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+
+    <linearGradient id="paEdgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#300808" />
+      <stop offset="35%" stop-color="#E52525" />
+      <stop offset="70%" stop-color="#FF5A1F" />
+      <stop offset="100%" stop-color="#300808" />
+    </linearGradient>
+
+    <radialGradient id="paCoreGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FF5A1F" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#E52525" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="paGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#171717" stroke-width="0.7" opacity="0.6" />
+      <circle cx="0" cy="0" r="0.8" fill="#FF5A1F" opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <!-- Frame Surface -->
+  <rect width="800" height="450" rx="12" fill="url(#paBgGrad)" />
+  <rect width="800" height="450" rx="12" fill="url(#paGrid)" />
+  <rect width="800" height="450" rx="12" fill="url(#paCoreGlow)" />
+
+  <!-- Outer Bevel & Fiery Top Edge -->
+  <rect x="1" y="1" width="798" height="448" rx="11" fill="none" stroke="#221010" stroke-width="1.2" />
+  <line x1="40" y1="2" x2="760" y2="2" stroke="url(#paEdgeGrad)" stroke-width="2" />
+
+  <!-- Corner Brackets -->
+  <path d="M 14 36 L 14 14 L 36 14" fill="none" stroke="#FF5A1F" stroke-width="2" />
+  <path d="M 786 36 L 786 14 L 764 14" fill="none" stroke="#FF5A1F" stroke-width="2" />
+  <path d="M 14 414 L 14 436 L 36 436" fill="none" stroke="#FF5A1F" stroke-width="2" />
+  <path d="M 786 414 L 786 436 L 764 436" fill="none" stroke="#FF5A1F" stroke-width="2" />
+
+  <!-- HUD Telemetry Top Bar -->
+  <g transform="translate(30, 32)">
+    <rect x="0" y="0" width="76" height="20" rx="4" fill="#180A0A" stroke="#3D1212" stroke-width="0.8" />
+    <circle cx="10" cy="10" r="2.5" fill="#FF5A1F" />
+    <text x="18" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="700" letter-spacing="1.5" fill="#F5F5F5">
+      PA // 03
+    </text>
+
+    <text x="90" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="2" fill="#71717A">
+      INDEX: SYSTEM ARTIFACT · GENERATIVE ENGINE
+    </text>
+  </g>
+
+  <!-- Central Generative Interface Matrix -->
+  <g transform="translate(400, 225)">
+    <!-- Interface Wireframe Layout -->
+    <rect x="-110" y="-60" width="220" height="120" rx="6" fill="#100606" stroke="#3A1010" stroke-width="1" />
+    <rect x="-100" y="-50" width="200" height="14" rx="3" fill="#1A0A0A" stroke="#FF5A1F" stroke-width="0.5" opacity="0.8" />
+    <rect x="-100" y="-26" width="90" height="76" rx="3" fill="#150808" stroke="#E52525" stroke-width="0.5" opacity="0.6" />
+    <rect x="0" y="-26" width="100" height="34" rx="3" fill="#150808" stroke="#E52525" stroke-width="0.5" opacity="0.6" />
+    <rect x="0" y="16" width="100" height="34" rx="3" fill="#150808" stroke="#FF7518" stroke-width="0.5" opacity="0.6" />
+
+    <!-- Center Monogram -->
+    <text x="0" y="4" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif" font-weight="900" font-size="20" letter-spacing="4" fill="#F5F5F5">
+      PEAK AI
+    </text>
+    <text x="0" y="76" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="8" font-weight="700" letter-spacing="3" fill="#FF5A1F">
+      AUTONOMOUS WEB BUILDER
+    </text>
+  </g>
+
+  <!-- HUD Telemetry Bottom Bar -->
+  <g transform="translate(30, 415)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="2" fill="#52525B">
+      AI-POWERED WEBSITE GENERATION PLATFORM
+    </text>
+    <text x="740" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="9" font-weight="600" letter-spacing="1.5" fill="#FF7518">
+      STATUS: ACTIVE
+    </text>
+  </g>
+</svg>
