@@ -380,13 +380,6 @@ A Pokémon-inspired RPG and automation project exploring deterministic battle me
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PeakyCodez/PeakyCodez/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PeakyCodez/PeakyCodez/output/github-contribution-grid-snake.svg" />
-  <img src="assets/animations/contribution/contribution-grid.svg" width="100%" alt="Infernal Contribution Matrix Snake" />
-</picture>
-
-<br/>
 <img src="assets/animations/ember/ember-flow.svg" width="100%" alt="Ember Telemetry" />
 
 </div>
