@@ -239,7 +239,7 @@
       </text>
       <line x1="160" y1="6" x2="160" y2="18" stroke="#281010" stroke-width="1" />
       <text x="170" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="10" font-weight="600" letter-spacing="1.5" fill="#A1A1AA">
-        v2.4
+         
       </text>
     </g>
 
@@ -290,7 +290,7 @@
     <!-- Refined Telemetry Row -->
     <g transform="translate(0, 342)" opacity="0.85">
       <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="500" letter-spacing="1.5" fill="#71717A">
-        FOCUS //
+         
       </text>
       <text x="58" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="600" letter-spacing="1" fill="#A1A1AA">
         Autonomous AI Systems · 3D Web Real-Time Experiences · High-Velocity Full-Stack
