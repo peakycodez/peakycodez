@@ -140,7 +140,7 @@ Six production artifacts architected with distinctive technical focus.
 <div align="center">
 <img src="assets/projects/unseen-heritage/image-slot/Unseen Heritage.png" width="100%" alt="Unseen Heritage Display Frame" />
 </div>
-
+<br/>
 **Cultural Exploration Platform with Real-Time 3D Spatial Environments**
 
 An India heritage exploration and learning platform featuring interactive cultural experiences and 3D environments. Built to preserve, visualize, and interact with cultural history through immersive web graphics.
@@ -175,7 +175,7 @@ An India heritage exploration and learning platform featuring interactive cultur
 <div align="center">
 <img src="assets/projects/blackbook/image-slot/Black Book.png" width="100%" alt="Blackbook Display Frame" />
 </div>
-
+<br/>
 **AI-Powered Knowledge Management &amp; Information Graph Core**
 
 An AI-powered personal knowledge management platform focused on organizing and connecting information. Transforms fragmented research, notes, and technical references into a unified intelligence graph.
@@ -209,7 +209,7 @@ An AI-powered personal knowledge management platform focused on organizing and c
 <div align="center">
 <img src="assets/projects/peak-ai/image-slot/Peak AI.png" width="100%" alt="Peak AI Display Frame" />
 </div>
-
+<br/>
 **Autonomous AI-Powered Website Generation Platform**
 
 An AI-powered website generation product designed to synthesize responsive, production-ready web interfaces from natural language prompts.
@@ -243,7 +243,7 @@ An AI-powered website generation product designed to synthesize responsive, prod
 <div align="center">
 <img src="assets/projects/campusway/image-slot/CampusWay.png" width="100%" alt="CampusWay Display Frame" />
 </div>
-
+<br/>
 **3D Interactive Campus Navigation Experience for AMGOI**
 
 A 3D interactive campus navigation experience for Ashokrao Mane Group of Institutions. Delivers an interactive spatial digital twin of the institution's topography, academic blocks, and infrastructure.
@@ -277,7 +277,7 @@ A 3D interactive campus navigation experience for Ashokrao Mane Group of Institu
 <div align="center">
 <img src="assets/projects/hiresense-ai/image-slot/HireSense AI.png" width="100%" alt="HireSense AI Display Frame" />
 </div>
-
+<br/>
 **AI-Powered Recruitment &amp; Technical Interview Assessment Engine**
 
 An AI-powered recruitment and interview platform engineered to streamline candidate evaluation, automated interview conduction, and technical scoring.
@@ -311,7 +311,7 @@ An AI-powered recruitment and interview platform engineered to streamline candid
 <div align="center">
 <img src="assets/projects/masterquest/image-slot/MasterQuest.png" width="100%" alt="MasterQuest Display Frame" />
 </div>
-
+<br/>
 **Pokémon-Inspired RPG Logic &amp; Automation Project**
 
 A Pokémon-inspired RPG and automation project exploring deterministic battle mechanics, entity state progression, and programmatic gameplay automation.
@@ -349,15 +349,6 @@ A Pokémon-inspired RPG and automation project exploring deterministic battle me
 ## 05 // PERFORMANCE CORE
 
 <div align="center">
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-    </td>
-    <td width="50%" align="center">
-    </td>
-  </tr>
-</table>
 
 <br/>
 
