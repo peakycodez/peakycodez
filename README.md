@@ -435,13 +435,6 @@ Direct channels to explore codebases, collaborate on advanced projects, and conn
 
 <br/><br/>
 
-```text
-CONTACT & REPOSITORIES // VERIFIED ACCESS ONLY
-GITHUB:    https://github.com/PeakyCodez
-LINKEDIN:  https://linkedin.com/in/sairaj-pingale
-LOCATION:  Maharashtra, India
-```
-
 </div>
 
 <br/>
