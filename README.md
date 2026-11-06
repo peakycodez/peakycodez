@@ -135,7 +135,7 @@ Six production artifacts architected with distinctive technical focus.
 <br/>
 
 <!-- PROJECT 01: UNSEEN HERITAGE -->
-### 01 // UNSEEN HERITAGE
+### 🟅 UNSEEN HERITAGE
 
 <div align="center">
 <img src="assets/projects/unseen-heritage/image-slot/Unseen Heritage.png" width="100%" alt="Unseen Heritage Display Frame" />
@@ -170,7 +170,7 @@ An India heritage exploration and learning platform featuring interactive cultur
 <br/>
 
 <!-- PROJECT 02: BLACKBOOK -->
-### 02 // BLACKBOOK
+### 🟅 BLACKBOOK
 
 <div align="center">
 <img src="assets/projects/blackbook/image-slot/Black Book.png" width="100%" alt="Blackbook Display Frame" />
@@ -204,7 +204,7 @@ An AI-powered personal knowledge management platform focused on organizing and c
 <br/>
 
 <!-- PROJECT 03: PEAK AI -->
-### 03 // PEAK AI
+### 🟅 PEAK AI
 
 <div align="center">
 <img src="assets/projects/peak-ai/image-slot/Peak AI.png" width="100%" alt="Peak AI Display Frame" />
@@ -238,7 +238,7 @@ An AI-powered website generation product designed to synthesize responsive, prod
 <br/>
 
 <!-- PROJECT 04: CAMPUSWAY -->
-### 04 // CAMPUSWAY
+### 🟅 CAMPUS WAY
 
 <div align="center">
 <img src="assets/projects/campusway/image-slot/CampusWay.png" width="100%" alt="CampusWay Display Frame" />
@@ -272,7 +272,7 @@ A 3D interactive campus navigation experience for Ashokrao Mane Group of Institu
 <br/>
 
 <!-- PROJECT 05: HIRESENSE AI -->
-### 05 // HIRESENSE AI
+### 🟅 HIRESENSE AI
 
 <div align="center">
 <img src="assets/projects/hiresense-ai/image-slot/HireSense AI.png" width="100%" alt="HireSense AI Display Frame" />
@@ -306,7 +306,7 @@ An AI-powered recruitment and interview platform engineered to streamline candid
 <br/>
 
 <!-- PROJECT 06: MASTERQUEST -->
-### 06 // MASTERQUEST
+### 🟅 MASTERQUEST
 
 <div align="center">
 <img src="assets/projects/masterquest/image-slot/MasterQuest.png" width="100%" alt="MasterQuest Display Frame" />
