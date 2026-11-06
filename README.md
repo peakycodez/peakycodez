@@ -353,10 +353,8 @@ A Pokémon-inspired RPG and automation project exploring deterministic battle me
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=PeakyCodez&show_icons=true&title_color=FF5A1F&icon_color=E52525&text_color=F5F5F5&bg_color=080808&border_color=251212&hide_border=false" width="100%" alt="GitHub Profile Statistics" onerror="this.onerror=null;this.src='assets/stats/performance-core.svg';" />
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PeakyCodez&layout=compact&title_color=FF5A1F&text_color=F5F5F5&bg_color=080808&border_color=251212&hide_border=false" width="100%" alt="Top Languages Breakdown" onerror="this.onerror=null;this.src='assets/stats/language-distribution.svg';" />
     </td>
   </tr>
 </table>
