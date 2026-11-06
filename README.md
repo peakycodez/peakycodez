@@ -138,7 +138,7 @@ Six production artifacts architected with distinctive technical focus.
 ### 01 // UNSEEN HERITAGE
 
 <div align="center">
-<img src="assets/projects/unseen-heritage/image-slot/frame.svg" width="100%" alt="Unseen Heritage Display Frame" />
+<img src="assets/projects/unseen-heritage/image-slot/Unseen Heritage.png" width="100%" alt="Unseen Heritage Display Frame" />
 </div>
 
 **Cultural Exploration Platform with Real-Time 3D Spatial Environments**
@@ -173,7 +173,7 @@ An India heritage exploration and learning platform featuring interactive cultur
 ### 02 // BLACKBOOK
 
 <div align="center">
-<img src="assets/projects/blackbook/image-slot/frame.svg" width="100%" alt="Blackbook Display Frame" />
+<img src="assets/projects/blackbook/image-slot/Black Book.png" width="100%" alt="Blackbook Display Frame" />
 </div>
 
 **AI-Powered Knowledge Management &amp; Information Graph Core**
@@ -207,7 +207,7 @@ An AI-powered personal knowledge management platform focused on organizing and c
 ### 03 // PEAK AI
 
 <div align="center">
-<img src="assets/projects/peak-ai/image-slot/frame.svg" width="100%" alt="Peak AI Display Frame" />
+<img src="assets/projects/peak-ai/image-slot/Peak AI.png" width="100%" alt="Peak AI Display Frame" />
 </div>
 
 **Autonomous AI-Powered Website Generation Platform**
@@ -241,7 +241,7 @@ An AI-powered website generation product designed to synthesize responsive, prod
 ### 04 // CAMPUSWAY
 
 <div align="center">
-<img src="assets/projects/campusway/image-slot/frame.svg" width="100%" alt="CampusWay Display Frame" />
+<img src="assets/projects/campusway/image-slot/CampusWay.png" width="100%" alt="CampusWay Display Frame" />
 </div>
 
 **3D Interactive Campus Navigation Experience for AMGOI**
@@ -275,7 +275,7 @@ A 3D interactive campus navigation experience for Ashokrao Mane Group of Institu
 ### 05 // HIRESENSE AI
 
 <div align="center">
-<img src="assets/projects/hiresense-ai/image-slot/frame.svg" width="100%" alt="HireSense AI Display Frame" />
+<img src="assets/projects/hiresense-ai/image-slot/HireSense AI.png" width="100%" alt="HireSense AI Display Frame" />
 </div>
 
 **AI-Powered Recruitment &amp; Technical Interview Assessment Engine**
@@ -309,7 +309,7 @@ An AI-powered recruitment and interview platform engineered to streamline candid
 ### 06 // MASTERQUEST
 
 <div align="center">
-<img src="assets/projects/masterquest/image-slot/frame.svg" width="100%" alt="MasterQuest Display Frame" />
+<img src="assets/projects/masterquest/image-slot/MasterQuest.png" width="100%" alt="MasterQuest Display Frame" />
 </div>
 
 **Pokémon-Inspired RPG Logic &amp; Automation Project**
